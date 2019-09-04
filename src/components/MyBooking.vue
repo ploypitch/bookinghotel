@@ -12,7 +12,7 @@ import MyBookingItem from '@/components/MyBookingItem'
 export default {
   name: 'MyBooking',
   components: {
-      MyBookingItem
+    MyBookingItem
   }
 }
 </script>

@@ -10,10 +10,10 @@
 <script>
 import HotelItem from '@/components/HotelItem'
 export default {
-    name: 'AvaHotel',
-    components: {
-        HotelItem
-    }
+  name: 'AvaHotel',
+  components: {
+    HotelItem
+  }
 }
 </script>
 

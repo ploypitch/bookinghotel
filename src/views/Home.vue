@@ -11,13 +11,12 @@
 
 <script>
 // @ is an alias to /src
-import SignIn from '@/components/SignIn'
+
 import HotelItem from '@/components/HotelItem'
 
 export default {
   name: 'home',
   components: {
-    SignIn,
     HotelItem
   }
 
@@ -28,7 +27,6 @@ export default {
   .home{
     margin-left: 15%;
     margin-right: 15%;
-    
   }
   .allhotel {
     margin-top: 4em;

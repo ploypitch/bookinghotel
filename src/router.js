@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import HotelList from './components/HotelList.vue'
-import SignIn from './components/SignIn.vue'
 import HotelInfo from './components/HotelInfo.vue'
 import MyBooking from './components/MyBooking.vue'
 import AvaHotel from './components/AvaHotel.vue'
@@ -27,17 +25,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/hotellist',
-      name: 'HotelList',
-      component: HotelList
-    },
-    {
-      path: '/signin',
-      name: 'SignIn',
-      component: SignIn
-    },
-    {
-      path: '/hotelinfo',
+      path: '/hotelinfo/:id',
       name: 'HotelInfo',
       component: HotelInfo
     },

@@ -21,12 +21,12 @@
             <button id='bookbtn'>CANCEL</button>
         </div>
     </div>
- 
+
 </template>
 
 <script>
 export default {
-    name: 'MyBookingItem'
+  name: 'MyBookingItem'
 }
 </script>
 
